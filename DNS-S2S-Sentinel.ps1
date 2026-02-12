@@ -159,4 +159,5 @@ try {
 }
 finally {
     if ($null -ne $Form) { $Form.Dispose() }
+    Write-Host "Monitoring session ended." -ForegroundColor Yellow
 }
