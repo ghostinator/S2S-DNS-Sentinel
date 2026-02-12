@@ -1,0 +1,16 @@
+# Ignore local data and logs
+*.csv
+*.log
+*.txt
+
+# Ignore exported reports
+*.png
+*.jpg
+
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
